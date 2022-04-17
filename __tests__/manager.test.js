@@ -3,7 +3,7 @@ const Manager = require("../lib/manager");
 
 // creating tests for manager object, different from Employee
 test("creates new manager object", () => {
-    const manager = new Manager("Mike", 42, "michael.manning@iservworld.com");
+    const manager = new Manager("Mike", 42, "michael.manning@iservworld.com", 615);
 
     expect(manager.officeNumber).toEqual(expect.any(Number));
 });
