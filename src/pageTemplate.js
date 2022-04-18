@@ -5,7 +5,7 @@ const generateManager = function(manager) {
         <div class="card h-100">
             <div class="card-header">
                 <h3>${manager.name}</h3>
-                <h4>Manager</h4><i class="fa-light fa-list-check"></i>
+                <h4>Manager</h4><i class="fa-solid fa-list-check"></i>
             </div>
             <div class="card-body">
                 <p class="id">ID: ${manager.id}</p>
@@ -24,7 +24,7 @@ const generateEngineer = function(engineer) {
         <div class="card h-100">
             <div class="card-header">
                 <h3>${engineer.name}</h3>
-                <h4>Engineer</h4><i class="fa-light fa-glasses"></i>
+                <h4>Engineer</h4><i class="fa-solid fa-glasses"></i>
             </div>
             <div class="card-body">
                 <p class="id">ID: ${engineer.id}</p>
@@ -43,7 +43,7 @@ const generateIntern = function(intern) {
         <div class="card h-100">
             <div class="card-header">
                 <h3>${intern.name}</h3>
-                <h4>Intern</h4><i class="fa-thin fa-user-graduate"></i>
+                <h4>Intern</h4><i class="fa-solid fa-user-graduate"></i>
             </div>
             <div class="card-body">
                 <p class="id">ID: ${intern.id}</p>
@@ -63,7 +63,7 @@ generateHTML = (data) => {
 
     for (let i = 0; i < data.length; i++) {
         const employee = data[i];
-        const role = employee.getRole(); 
+        const role = employee.getRole();
 
 
         // call manager function
@@ -137,4 +137,4 @@ const generateTeamPage = function (employeeCards) {
 }
 
 // export to index
-module.exports = generatePage; 
+module.exports = generateHTML; 
