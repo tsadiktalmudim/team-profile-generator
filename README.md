@@ -10,7 +10,7 @@ The user should clone the repository from GitHub and download Node. This applica
 Use inquirer from your command line to answer questions about your project. View walk through video here - Screencastify
 
 ## License
-This project is license under MIT
+This project is utilizing the MIT license
 
 ## Contributing
 Contributors should read the installation section.
